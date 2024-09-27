@@ -1,0 +1,59 @@
+site_name: Diego's Python Utilities and Guidance for Data Science
+repo_name: diego-utils
+repo_url: https://github.com/diego-lda/diego-utils.git
+site_description: A package with useful data science functions I have developed and useful guidance.
+site_author: Diego Lara
+site_url: https://github.com/diego-lda/diego-utils.git
+
+# Theme configuration
+theme:
+  name: 'material'
+  language: 'en'
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: 'indigo'
+      accent: 'indigo'
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: 'indigo'
+      accent: 'indigo'
+  font:
+    text: "Roboto"
+    code: "Fira Code"
+
+  features:
+    - navigation.expand
+    - navigation.tabs
+    - search.highlight
+    - search.share
+    - toc.integrate
+
+# Plugins (Extra functionality for your documentation)
+plugins:
+  - search
+
+# Markdown extensions
+markdown_extensions:
+  - admonition  # Adds note, warning, info boxes
+  - codehilite  # Syntax highlighting for code blocks
+  - footnotes   # Enables footnotes
+  - meta        # Metadata in markdown files
+  - toc         # Table of contents
+  - pymdownx.emoji  # Adds emoji support
+  - pymdownx.superfences  # Improved handling of code blocks
+
+nav:
+  - High Level Overview: high_level.md
+  - Useful Git: git_overview.md
+  - Useful Python: python_overview.md
+  - Branching & Deployment Guide: branch_and_deploy_guide.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/diego-lda/diego-utils.git
+
+# Do not remove the copy right section. But you can change the copyright information.
+copyright: |
+  &copy;  <a href="https://diego-lda.github.io/">Diego Lara 2024</a>
