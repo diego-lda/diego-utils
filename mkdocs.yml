@@ -1,13 +1,13 @@
 site_name: Diego's Python Utilities and Guidance for Data Science
 
 theme:
-  name: tech_docs_template
+  name: material
   features:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.indexes
-  logo: assets/images/logo.svg
-  favicon: assets/images/favicon.ico
+  logo: assets/images/diego_logo.svg
+  favicon: assets/images/diego_favicon.svg
 repo_name: diego-utils
 repo_url: https://diego-lda.github.io/diego-utils/
 
