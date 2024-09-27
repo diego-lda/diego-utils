@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+    width="200"
+    height="200"
+    viewBox="0 0 200 200"
+    xmlns="http://www.w3.org/2000/svg"
+>
+    <!-- Computer Body -->
+    <rect
+        x="50"
+        y="50"
+        width="100"
+        height="70"
+        rx="10"
+        ry="10"
+        fill="#4CAF50"
+        stroke="#388E3C"
+        stroke-width="4"
+    />
+    
+    <!-- Screen -->
+    <rect
+        x="60"
+        y="60"
+        width="80"
+        height="50"
+        rx="5"
+        ry="5"
+        fill="#81C784"
+        stroke="#388E3C"
+        stroke-width="2"
+    />
+    
+    <!-- Face on Screen -->
+    <circle cx="80" cy="80" r="5" fill="#FFFFFF"/>
+    <circle cx="120" cy="80" r="5" fill="#FFFFFF"/>
+    <path
+        d="M 80 90 Q 100 110, 120 90"
+        stroke="#FFFFFF"
+        stroke-width="3"
+        fill="none"
+        stroke-linecap="round"
+    />
+    
+    <!-- Base -->
+    <rect
+        x="70"
+        y="120"
+        width="60"
+        height="10"
+        rx="2"
+        ry="2"
+        fill="#388E3C"
+    />
+    
+    <!-- Stand -->
+    <rect
+        x="95"
+        y="130"
+        width="10"
+        height="20"
+        rx="2"
+        ry="2"
+        fill="#388E3C"
+    />
+</svg>
