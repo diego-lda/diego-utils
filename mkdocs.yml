@@ -1,40 +1,15 @@
 site_name: Diego's Python Utilities and Guidance for Data Science
 
+# mkdocs.yml
 theme:
-  name: rtd-dropdown
-  language: en
-  features:
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.indexes
-  logo: assets/images/diego_logo.svg
-  favicon: assets/images/diego_favicon.svg
+  name: "material"
+
+plugins:
+  - search
+  - mkdocstrings
 
 repo_name: diego-utils
 repo_url: https://github.com/diego-lda/diego-utils.git
-
-plugins:
-  - mkdocstrings:
-      handlers:
-        python:
-          options:
-            # All options can be found at: https://mkdocstrings.github.io/python/usage/#globallocal-options
-            docstring_style: numpy
-            show_signature_annotations: True
-            show_source: False
-            show_root_heading: True
-            merge_init_into_class: True
-  - material/search
-  - git-revision-date-localized
-  - mkdocs-jupyter:
-      include_source: True
-      include: ["*.ipynb"] # Default: ["*.py", "*.ipynb"]
-      ignore: ["*.py"]
-      remove_tag_config:
-        remove_input_tags:
-          - hide_code
-        remove_all_outputs_tags:
-          - hide_out
 
 nav:
   - diego-utils: index.md
