@@ -1,7 +1,7 @@
 site_name: Diego's Python Utilities and Guidance for Data Science
 
 theme:
-  name: readthedocs
+  name: rtd-dropdown
   language: en
 
 repo_name: diego-utils
