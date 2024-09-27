@@ -2,8 +2,6 @@ site_name: Diego's Python Utilities and Guidance for Data Science
 
 theme:
   name: readthedocs
-  logo: assets/diego_logo.svg
-  favicon: assets/diego_favicon.svg
 
 repo_name: diego-utils
 repo_url: https://github.com/diego-lda/diego-utils.git
