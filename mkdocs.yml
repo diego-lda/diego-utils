@@ -1,16 +1,7 @@
 site_name: Diego's Python Utilities and Guidance for Data Science
 
 theme:
-  name: mkdocs
-  features:
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.sections
-    - toc.integrate
-    - content.tabs.link
-    - content.code.annotation
-    - content.code.copy
-  language: en
+  name: readthedocs
   logo: assets/diego_logo.svg
   favicon: assets/diego_favicon.svg
 
