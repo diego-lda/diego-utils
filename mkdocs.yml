@@ -1,9 +1,4 @@
 site_name: Diego's Python Utilities and Guidance for Data Science
-repo_name: diego-utils
-repo_url: https://github.com/diego-lda/diego-utils.git
-site_description: A package with useful data science functions I have developed and useful guidance.
-site_author: Diego Lara
-site_url: https://diego-lda.github.io/diego-utils/
 
 theme:
   name: ons_mkdocs_theme
@@ -18,6 +13,9 @@ theme:
   language: en
   logo: assets/images/logo.svg
   favicon: assets/images/favicon.ico
+
+repo_name: diego-utils
+repo_url: https://github.com/diego-lda/diego-utils.git
 
 plugins:
   - mkdocstrings:
@@ -42,16 +40,6 @@ plugins:
         remove_all_outputs_tags:
           - hide_out
   - mermaid2
-
-# Markdown extensions
-markdown_extensions:
-  - admonition  # Adds note, warning, info boxes
-  - codehilite  # Syntax highlighting for code blocks
-  - footnotes   # Enables footnotes
-  - meta        # Metadata in markdown files
-  - toc         # Table of contents
-  - pymdownx.emoji  # Adds emoji support
-  - pymdownx.superfences  # Improved handling of code blocks
 
 nav:
   - High Level Overview: high_level.md
