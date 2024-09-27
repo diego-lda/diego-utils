@@ -1,90 +1,226 @@
+<!--
+  Copyright (c) 2016-2024 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!--
+  Copyright (c) 2016-2024 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!--
+  Copyright (c) 2016-2024 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+
 
 <!doctype html>
 <html lang="en" class="no-js">
   <head>
+
+    <!-- Meta tags -->
     
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+      <!-- Page description -->
       
-        <meta name="description" content="A package with useful data science functions I have developed and useful guidance.">
+        <meta name="description" content="A package with useful data science functions I have developed and useful guidance." />
       
+
+      <!-- Page author -->
       
-        <meta name="author" content="Diego Lara">
+        <meta name="author" content="Diego Lara" />
       
+
+      <!-- Canonical -->
       
+
+      <!-- Previous page -->
       
+
+      <!-- Next page -->
       
+
+      <!-- RSS feed -->
       
-      <link rel="icon" href="/diego-lda/diego-utils.git/assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.30">
+
+      <!-- Favicon -->
+      <link rel="icon" href="/diego-utils/assets/images/favicon.ico" />
+
+      <!-- Generator banner -->
+      <meta
+        name="generator"
+        content="mkdocs-1.6.0, $md-name$-$md-version$"
+      />
     
+
+    <!-- Site title -->
     
       
         <title>Diego's Python Utilities and Guidance for Data Science</title>
       
     
+
+    <!-- Theme-related style sheets -->
     
-      <link rel="stylesheet" href="/diego-lda/diego-utils.git/assets/stylesheets/main.3cba04c6.min.css">
+      <link rel="stylesheet" href="/diego-utils/assets/stylesheets/main.css" />
+
+      <!-- Extra color palette -->
       
-        
-        <link rel="stylesheet" href="/diego-lda/diego-utils.git/assets/stylesheets/palette.06af60db.min.css">
-      
+
+      <!-- Custom icons -->
       
 
 
     
-    
-      
-    
-    
-      
-        
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CFira+Code:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Fira Code"}</style>
-      
-    
-    
-    <script>__md_scope=new URL("/diego-lda/diego-utils.git/",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
-    
-      
 
+    <!-- JavaScript libraries -->
     
+      
     
+
+    <!-- Webfonts -->
+    
+
+      <!-- Load fonts from Google -->
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback"
+        />
+        <style>
+          :root {
+            --md-text-font: "Roboto";
+            --md-code-font: "Roboto Mono";
+          }
+        </style>
+      
+    
+
+    <!-- Custom style sheets -->
+    
+      <link rel="stylesheet" href="/diego-utils/assets/_mkdocstrings.css" />
+    
+
+    <!-- Helper functions for inline scripts -->
+    <script>__md_scope=new URL("/diego-utils/",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+
+    <!-- Meta tags from front matter or plugins -->
+    
+
+    <!-- Custom front matter -->
     
   </head>
+
+  <!-- Set text direction and color palette, if defined -->
   
   
-    
-    
-      
-    
-    
-    
-    
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+    <body dir="ltr">
   
     
-    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
-    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+
+    <!--
+      State toggles - we need to set autocomplete="off" in order to reset the
+      drawer on back button invocation in some browsers
+    -->
+    <input
+      class="md-toggle"
+      data-md-toggle="drawer"
+      type="checkbox"
+      id="__drawer"
+      autocomplete="off"
+    />
+    <input
+      class="md-toggle"
+      data-md-toggle="search"
+      type="checkbox"
+      id="__search"
+      autocomplete="off"
+    />
+
+    <!-- Overlay for expanded drawer -->
     <label class="md-overlay" for="__drawer"></label>
+
+    <!-- Skip to content -->
     <div data-md-component="skip">
       
     </div>
+
+    <!-- Announcement bar -->
     <div data-md-component="announce">
       
     </div>
+
+    <!-- Version warning -->
     
+
+    <!-- Header -->
     
       
 
-<header class="md-header" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/diego-lda/diego-utils.git/." title="Diego&#39;s Python Utilities and Guidance for Data Science" class="md-header__button md-logo" aria-label="Diego's Python Utilities and Guidance for Data Science" data-md-component="logo">
-      
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="/diego-utils/." title="Diego&#39;s Python Utilities and Guidance for Data Science" class="md-header__button md-logo" aria-label="Diego's Python Utilities and Guidance for Data Science" data-md-component="logo">
+      
+  <img src="/diego-utils/assets/images/logo.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -108,24 +244,6 @@
       </div>
     </div>
     
-      
-        <form class="md-header__option" data-md-component="palette">
-  
-    
-    
-    
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
-    
-  
-    
-    
-    
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_1">
-    
-  
-</form>
-      
-    
     
       <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
@@ -147,11 +265,6 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
       </label>
       <nav class="md-search__options" aria-label="Search">
-        
-          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
-            
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
-          </a>
         
         <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
           
@@ -188,14 +301,8 @@
     
   </nav>
   
-</header>
     
-    <div class="md-container" data-md-component="container">
       
-      
-        
-          
-            
 <nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
   <div class="md-grid">
     <ul class="md-tabs__list">
@@ -205,7 +312,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/diego-lda/diego-utils.git/high_level/" class="md-tabs__link">
+      <a href="/diego-utils/high_level/" class="md-tabs__link">
         
   
     
@@ -222,7 +329,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/diego-lda/diego-utils.git/git_overview/" class="md-tabs__link">
+      <a href="/diego-utils/git_overview/" class="md-tabs__link">
         
   
     
@@ -239,7 +346,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/diego-lda/diego-utils.git/python_overview/" class="md-tabs__link">
+      <a href="/diego-utils/python_overview/" class="md-tabs__link">
         
   
     
@@ -256,7 +363,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/diego-lda/diego-utils.git/branch_and_deploy_guide/" class="md-tabs__link">
+      <a href="/diego-utils/branch_and_deploy_guide/" class="md-tabs__link">
         
   
     
@@ -271,15 +378,38 @@
     </ul>
   </div>
 </nav>
-          
+    
+  
+</header>
+    
+
+    <!-- Container -->
+    <div class="md-container" data-md-component="container">
+
+      <!-- Hero teaser -->
+      
+
+      <!-- Navigation tabs (collapsing) -->
+      
         
       
+
+      <!-- Main area -->
       <main class="md-main" data-md-component="main">
         <div class="md-main__inner md-grid">
+
+          <!-- Sidebars -->
           
+
+            <!-- Navigation -->
             
               
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+              <div
+                class="md-sidebar md-sidebar--primary"
+                data-md-component="sidebar"
+                data-md-type="navigation"
+                
+              >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -292,10 +422,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/diego-lda/diego-utils.git/." title="Diego&#39;s Python Utilities and Guidance for Data Science" class="md-nav__button md-logo" aria-label="Diego's Python Utilities and Guidance for Data Science" data-md-component="logo">
+    <a href="/diego-utils/." title="Diego&#39;s Python Utilities and Guidance for Data Science" class="md-nav__button md-logo" aria-label="Diego's Python Utilities and Guidance for Data Science" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+  <img src="/diego-utils/assets/images/logo.svg" alt="logo">
 
     </a>
     Diego's Python Utilities and Guidance for Data Science
@@ -322,7 +451,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/diego-lda/diego-utils.git/high_level/" class="md-nav__link">
+      <a href="/diego-utils/high_level/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -342,7 +471,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/diego-lda/diego-utils.git/git_overview/" class="md-nav__link">
+      <a href="/diego-utils/git_overview/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -362,7 +491,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/diego-lda/diego-utils.git/python_overview/" class="md-nav__link">
+      <a href="/diego-utils/python_overview/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -382,7 +511,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/diego-lda/diego-utils.git/branch_and_deploy_guide/" class="md-nav__link">
+      <a href="/diego-utils/branch_and_deploy_guide/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -401,8 +530,12 @@
                 </div>
               </div>
             
+
+            <!-- Table of contents -->
             
           
+
+          <!-- Page content -->
           
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
@@ -412,11 +545,19 @@
               </article>
             </div>
           
+
+          <!-- User preference: content -->
           
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
+
+        <!-- Back-to-top button -->
         
       </main>
+
+      <!-- Footer -->
       
         <footer class="md-footer">
   
@@ -425,14 +566,8 @@
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      &copy;  <a href="https://diego-lda.github.io/">Diego Lara 2024</a>
+      <img src="https://gcs.civilservice.gov.uk/wp-content/themes/gcs/assets/govuk-frontend/govuk/assets/images/govuk-crest.png" width="60px" height="60px"> <p>&copy;  <a href="https://diego-lda.github.io/">Diego Lara 2024</a></p>
     </div>
-  
-  
-    Made with
-    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-      Material for MkDocs
-    </a>
   
 </div>
       
@@ -456,15 +591,28 @@
 </footer>
       
     </div>
+
+    <!-- Dialog -->
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
+
+    <!-- Progress indicator -->
     
+
+    <!-- Consent -->
     
-    <script id="__config" type="application/json">{"base": "/diego-lda/diego-utils.git/", "features": ["navigation.expand", "navigation.tabs", "search.highlight", "search.share", "toc.integrate"], "search": "/diego-lda/diego-utils.git/assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+
+    <!-- Theme-related configuration -->
+    <!-- Versioning --><!-- Tags --><!-- Translations --><!-- Configuration -->
+      <script id="__config" type="application/json">{"base": "/diego-utils/", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "toc.integrate", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "/diego-utils/assets/javascripts/workers/search.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
+
+    <!-- Theme-related JavaScript -->
     
-      <script src="/diego-lda/diego-utils.git/assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      <script src="/diego-utils/assets/javascripts/bundle.js"></script>
+
+      <!-- Custom JavaScript -->
       
     
   </body>
