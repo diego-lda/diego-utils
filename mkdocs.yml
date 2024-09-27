@@ -3,35 +3,45 @@ repo_name: diego-utils
 repo_url: https://github.com/diego-lda/diego-utils.git
 site_description: A package with useful data science functions I have developed and useful guidance.
 site_author: Diego Lara
-site_url: https://github.com/diego-lda/diego-utils.git
+site_url: https://diego-lda.github.io/diego-utils/
 
-# Theme configuration
 theme:
-  name: 'material'
-  language: 'en'
-  palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: 'indigo'
-      accent: 'indigo'
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: 'indigo'
-      accent: 'indigo'
-  font:
-    text: "Roboto"
-    code: "Fira Code"
-
+  name: ons_mkdocs_theme
   features:
-    - navigation.expand
     - navigation.tabs
-    - search.highlight
-    - search.share
+    - navigation.tabs.sticky
+    - navigation.sections
     - toc.integrate
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  logo: assets/images/logo.svg
+  favicon: assets/images/favicon.ico
 
-# Plugins (Extra functionality for your documentation)
 plugins:
-  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            # All options can be found at: https://mkdocstrings.github.io/python/usage/#globallocal-options
+            docstring_style: numpy
+            show_signature_annotations: True
+            show_source: False
+            show_root_heading: True
+            merge_init_into_class: True
+  - material/search
+  - git-revision-date-localized
+  - mkdocs-jupyter:
+      include_source: True
+      include: ["*.ipynb"] # Default: ["*.py", "*.ipynb"]
+      ignore: ["*.py"]
+      remove_tag_config:
+        remove_input_tags:
+          - hide_code
+        remove_all_outputs_tags:
+          - hide_out
+  - mermaid2
 
 # Markdown extensions
 markdown_extensions:
