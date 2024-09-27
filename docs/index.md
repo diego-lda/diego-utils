@@ -3,7 +3,6 @@
 This site contains the project documentation for `diego-utils`.
 This is a Python package with some useful utility functions for data science and econometrics.
 
-
 ## Table Of Contents
 
 1. [High Level Overview](high_level.md)

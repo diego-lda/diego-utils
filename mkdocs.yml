@@ -1,15 +1,17 @@
 site_name: Diego's Python Utilities and Guidance for Data Science
 
 theme:
-  name: material
+  name: rtd-dropdown
+  language: en
   features:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.indexes
   logo: assets/images/diego_logo.svg
   favicon: assets/images/diego_favicon.svg
+
 repo_name: diego-utils
-repo_url: https://diego-lda.github.io/diego-utils/
+repo_url: https://github.com/diego-lda/diego-utils.git
 
 plugins:
   - mkdocstrings:
