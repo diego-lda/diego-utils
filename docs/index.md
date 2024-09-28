@@ -1,20 +1,19 @@
 # Welcome to `diego-utils`
 
-This site contains the project documentation for `diego-utils`.
-This is a Python package with some useful utility functions for data science and econometrics.
+This site contains both the package documentation for `diego-utils` and my "playbook" for Data Science.
+`diego-utils` is a Python package with some useful utility functions for data science and econometrics.
+The "playbook" part of this site covers several Data Science aspects including:
 
-## Table Of Contents
-
-1. [High Level Overview](high_level.md)
-2. [Maintenance](maintenance.md)
-3. [Useful Git](git_overview.md)
-4. [Useful Python](python_overview.md)
-5. [Branching & Deployment Guide](branch_and_deploy_guide.md)
-
-Quickly find what you're looking for depending on your use case by looking at the different pages.
+- Git and sustainability considerations
+- Useful Python bits, including my style guide
+- Some thoughts on managing a Data Science Project
 
 ## Prerequisites
 
 The following prerequisites are required for `diego-utils`:
 
 - Python 3.8 or higher.
+
+## Setting Up
+
+As of right now, there are no extra bits of code, that will be coming soon.

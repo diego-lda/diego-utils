@@ -1,8 +1,10 @@
-site_name: Diego's Python Utilities and Guidance for Data Science
+site_name: `diego-utils` My Playbook for Data Science
 
 # mkdocs.yml
 theme:
   name: "material"
+  logo: assets/diego_logo.svg
+  favicon: assets/diego_favicon.svg
 
 plugins:
   - search
@@ -12,11 +14,11 @@ repo_name: diego-utils
 repo_url: https://github.com/diego-lda/diego-utils.git
 
 nav:
-  - diego-utils: index.md
+  - Introduction: index.md
   - High Level Overview: high_level.md
-  - Useful Git: git_overview.md
-  - Useful Python: python_overview.md
-  - Branching & Deployment Guide: branch_and_deploy_guide.md
+  - Git and Sustainability: git_sustainability.md
+  - Python Style Guide: python_overview.md
+  - Data Science Projects: project_guide.md
 
 extra:
   social:
