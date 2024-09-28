@@ -13,14 +13,17 @@ theme:
       surface: "#f0f0f0"    
       text: "#333333"        
       toggle:
-        icon: material/toggle-switch
-        name: Switch Mode
+        icon: material/weather-night
+        name: Switch to Dark Mode
     - scheme: slate          # Dark Mode Colours
       primary: "#ef2ebb"
       accent: "#fa2738"
       background: "#121212"  
       surface: "#2d2d2d"    
-      text: "#f5f5f5"     
+      text: "#f5f5f5"
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to Light Mode    
   features:
     - navigation.tabs
     - navigation.top
@@ -29,6 +32,12 @@ theme:
 plugins:
   - search
   - mkdocstrings
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 repo_name: diego-utils
 repo_url: https://github.com/diego-lda/diego-utils.git
