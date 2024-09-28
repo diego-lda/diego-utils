@@ -8,12 +8,12 @@ The "playbook" part of this site covers several Data Science aspects including:
 - Useful Python bits, including my style guide
 - Some thoughts on managing a Data Science Project
 
-## Prerequisites 🛫
+## Prerequisites
 
-The following prerequisites are required for `diego-utils`:
+In order to use the `diego-utils` package, you will need to have at least Python 3.11.
+To install the package and be able to use the functions in it, you will need to follow the following instructions:
 
-- Python 3.8 or higher.
 
-## Setting Up :airplane_departure:
+## Set Up 🛫
 
 As of right now, there are no extra bits of code, that will be coming soon.
