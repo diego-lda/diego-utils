@@ -15,6 +15,8 @@ and this project adheres to [semantic versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- Solved configuration of Emojis in documentation.
+
 ### Removed
 
 ## [v0.0.2] - 2024-09-28

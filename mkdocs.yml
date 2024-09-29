@@ -35,9 +35,7 @@ plugins:
 
 markdown_extensions:
   - attr_list
-  - pymdownx.emoji:
-      emoji_index: materialx.emoji.twemoji
-      emoji_generator: materialx.emoji.to_svg
+  - pymdownx.emoji
 
 repo_name: diego-utils
 repo_url: https://github.com/diego-lda/diego-utils.git
