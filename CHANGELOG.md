@@ -9,6 +9,11 @@ and this project adheres to [semantic versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- __metrics__ module and distributions file to add functionality for econometrics.
+- Unit tests for the functions.
+- Filled the readme.md a fair bit.
+- Added function documentation using the reference.md
+
 ### Changed
 
 ### Deprecated
