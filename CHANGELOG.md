@@ -17,6 +17,22 @@ and this project adheres to [semantic versioning](https://semver.org/spec/v2.0.0
 
 ### Removed
 
+## [v0.0.4] - 2025-01-03
+
+### Added
+
+- Added the __metrics__ `__init__.py` file to create the module for `reference.md`.
+
+### Changed
+
+### Deprecated
+
+- Removed the PyPI part of the GitHub Action as not set-up yet.
+
+### Fixed
+
+### Removed
+
 ## [v0.0.3] - 2025-01-03
 
 ### Added
@@ -59,6 +75,7 @@ and this project adheres to [semantic versioning](https://semver.org/spec/v2.0.0
 
 ### Release Links
 
+- diego-utils v0.0.4 - Not available on GitHub Releases or PyPI
 - diego-utils v0.0.3 - Not available on GitHub Releases or PyPI
 - diego-utils v0.0.2 - Not available on GitHub Releases or PyPI
 - diego-utils v0.0.1 - Not available on GitHub Releases or PyPI
