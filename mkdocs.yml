@@ -42,7 +42,8 @@ repo_url: https://github.com/diego-lda/diego-utils.git
 
 nav:
   - Introduction: index.md
-  - High Level Overview: high_level.md
+  - Package Overview: high_level.md
+  - Package Reference: reference.md
   - Git and Sustainability: git_sustainability.md
   - Python Style Guide: python_overview.md
   - Data Science Projects: project_guide.md
