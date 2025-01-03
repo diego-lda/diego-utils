@@ -13,7 +13,7 @@ It is built with Python 3.11 and higher, and uses `setup.py`, `setup.cfg`, and `
 
 - Python 3.11 or higher
 
-## 💾 Installation
+## 🛫 Set Up
 
 `diego-utils` can be installed by first cloning the repository, navigating into the home directory and then running:
 
