@@ -1,6 +1,9 @@
 # 🧰 diego-utils
 
-[![Deploy MkDocs](https://github.com/diego-lda/diego-utils/actions/workflows/deploy_mkdocs.yaml/badge.svg?branch=main)](https://github.com/diego-lds/diego-utils/actions/workflows/deploy_mkdocs.yaml)
+[![Deploy to PyPI](https://github.com/diego-lda/diego-utils/actions/workflows/deploy_pypi.yaml/badge.svg?branch=main)](https://github.com/diego-lda/diego-utils/actions/workflows/deploy_pypi.yaml)
+[![Deploy MkDocs](https://github.com/diego-lda/diego-utils/actions/workflows/deploy_mkdocs.yaml/badge.svg?branch=main)](https://github.com/diego-lda/diego-utils/actions/workflows/deploy_mkdocs.yaml)
+[![PyPI version](https://badge.fury.io/py/diego-utils.svg)](https://pypi.org/project/diego-utils/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/diego-utils.svg)](#)
 [![Code style: Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
