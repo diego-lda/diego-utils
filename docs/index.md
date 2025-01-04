@@ -10,17 +10,32 @@ The "playbook" part of this site covers several Data Science aspects including:
 
 ## 📋 Prerequisites
 
-- Python 3.11 or higher
+This package is requires a Python version between 3.11 and 3.13.
+It uses `setup.py`, `setup.cfg`, and `pyproject.toml` for dependency management and packaging.
 
 ## 🛫 Set Up
 
-`diego-utils` can be installed by first cloning the repository, navigating into the home directory and then running:
+### Install with PyPI
+
+The faster and easier way to install `diego-utils` in using PyPI. From your terminal just run:
+
+```bash
+pip install diego-utils
+```
+
+### Install through Cloning the repository
+
+Alternatively, `diego-utils` can also be installed by first cloning the repository:
+
+```bash
+git clone https://github.com/diego-lda/diego-utils.git
+```
+
+Then navigating into the home directory and running:
 
 ```bash
 pip install .
 ```
-
-This will install into your computer the `diego-utils` package.
 
 ## Running Tests
 
@@ -29,6 +44,10 @@ To run tests, ensure you're in the top-level directory of the project and execut
 `pytest`
 
 This will run all the tests using the configurations set in the project.
+
+You can also run `pytest` with coverage information running:
+
+`pytest --cov=diego_utils`
 
 ## Pre-Commit Hooks
 
