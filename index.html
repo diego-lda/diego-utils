@@ -423,6 +423,30 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="🛫 Set Up">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#install-with-pypi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Install with PyPI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-through-cloning-the-repository" class="md-nav__link">
+    <span class="md-ellipsis">
+      Install through Cloning the repository
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -617,6 +641,30 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="🛫 Set Up">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#install-with-pypi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Install with PyPI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-through-cloning-the-repository" class="md-nav__link">
+    <span class="md-ellipsis">
+      Install through Cloning the repository
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -689,18 +737,26 @@ The "playbook" part of this site covers several Data Science aspects including:<
 <li>Some thoughts on managing a Data Science Project</li>
 </ul>
 <h2 id="prerequisites">📋 Prerequisites</h2>
-<ul>
-<li>Python 3.11 or higher</li>
-</ul>
+<p>This package is requires a Python version between 3.11 and 3.13.
+It uses <code>setup.py</code>, <code>setup.cfg</code>, and <code>pyproject.toml</code> for dependency management and packaging.</p>
 <h2 id="set-up">🛫 Set Up</h2>
-<p><code>diego-utils</code> can be installed by first cloning the repository, navigating into the home directory and then running:</p>
+<h3 id="install-with-pypi">Install with PyPI</h3>
+<p>The faster and easier way to install <code>diego-utils</code> in using PyPI. From your terminal just run:</p>
+<pre><code class="language-bash">pip install diego-utils
+</code></pre>
+<h3 id="install-through-cloning-the-repository">Install through Cloning the repository</h3>
+<p>Alternatively, <code>diego-utils</code> can also be installed by first cloning the repository:</p>
+<pre><code class="language-bash">git clone https://github.com/diego-lda/diego-utils.git
+</code></pre>
+<p>Then navigating into the home directory and running:</p>
 <pre><code class="language-bash">pip install .
 </code></pre>
-<p>This will install into your computer the <code>diego-utils</code> package.</p>
 <h2 id="running-tests">Running Tests</h2>
 <p>To run tests, ensure you're in the top-level directory of the project and execute:</p>
 <p><code>pytest</code></p>
 <p>This will run all the tests using the configurations set in the project.</p>
+<p>You can also run <code>pytest</code> with coverage information running:</p>
+<p><code>pytest --cov=diego_utils</code></p>
 <h2 id="pre-commit-hooks">Pre-Commit Hooks</h2>
 <p>Pre-commit hooks are used to automate checks and formatting before commits. Follow these steps to set them up:</p>
 <h3 id="installation-steps">Installation Steps</h3>
