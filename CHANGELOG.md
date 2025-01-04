@@ -9,6 +9,26 @@ and this project adheres to [semantic versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- Upload of Package to PyPI.
+- Unit Test Coverage reporting in the pull request GitHub Action.
+- Capability to work with Python 3.13.
+
+### Changed
+
+### Deprecated
+
+### Fixed
+
+### Removed
+
+## [v0.0.5] - 2025-01-04
+
+### Added
+
+- Upload of Package to PyPI.
+- Unit Test Coverage reporting in the pull request GitHub Action.
+- Capability to work with Python 3.13.
+
 ### Changed
 
 ### Deprecated
@@ -75,7 +95,8 @@ and this project adheres to [semantic versioning](https://semver.org/spec/v2.0.0
 
 ### Release Links
 
-- diego-utils v0.0.4 - Not available on GitHub Releases or PyPI
+- diego-utils v0.0.5 - [GitHub Release](https://github.com/diego-lda/diego-utils/releases/tag/v0.0.5)
+- diego-utils v0.0.4 - [GitHub Release](https://github.com/diego-lda/diego-utils/releases/tag/v0.0.4)
 - diego-utils v0.0.3 - Not available on GitHub Releases or PyPI
 - diego-utils v0.0.2 - Not available on GitHub Releases or PyPI
 - diego-utils v0.0.1 - Not available on GitHub Releases or PyPI
