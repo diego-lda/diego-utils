@@ -134,3 +134,6 @@ dmypy.json
 # Ignore the metastore_db directory, which is used by Apache Hive
 # or other metastore services
 metastore_db/
+
+# Ignore the data folder
+data/
