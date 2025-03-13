@@ -68,16 +68,3 @@ if __name__ == "__main__":
     )
 
     print(completion.choices[0].message)
-
-    # Use a pipeline as a high-level helper
-    from transformers import pipeline
-
-    messages = [
-        {"role": "user", "content": "Who are you?"},
-    ]
-    pipe = pipeline(
-        "text-generation",
-        model="deepseek-ai/DeepSeek-R1",
-        trust_remote_code=True,
-    )
-    pipe(messages)
